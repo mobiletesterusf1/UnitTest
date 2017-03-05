@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Jenkins_Suite" duration-ms="31" started-at="2017-03-05T04:09:45Z" finished-at="2017-03-05T04:09:45Z">
+  <suite name="Jenkins_Suite" duration-ms="53" started-at="2017-03-05T07:10:14Z" finished-at="2017-03-05T07:10:15Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="31" started-at="2017-03-05T04:09:45Z" finished-at="2017-03-05T04:09:45Z">
+    <test name="Regression1" duration-ms="53" started-at="2017-03-05T07:10:14Z" finished-at="2017-03-05T07:10:15Z">
       <class name="Unit.Testsample">
-        <test-method status="PASS" signature="method()[pri:0, instance:Unit.Testsample@1888ff2c]" name="method" duration-ms="16" started-at="2017-03-04T23:09:45Z" finished-at="2017-03-04T23:09:45Z">
+        <test-method status="PASS" signature="method()[pri:0, instance:Unit.Testsample@1888ff2c]" name="method" duration-ms="1" started-at="2017-03-05T02:10:15Z" finished-at="2017-03-05T02:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
       </class> <!-- Unit.Testsample -->
       <class name="Unit.Testsample2">
-        <test-method status="PASS" signature="method()[pri:0, instance:Unit.Testsample2@6adca536]" name="method" duration-ms="0" started-at="2017-03-04T23:09:45Z" finished-at="2017-03-04T23:09:45Z">
+        <test-method status="PASS" signature="method()[pri:0, instance:Unit.Testsample2@6adca536]" name="method" duration-ms="0" started-at="2017-03-05T02:10:15Z" finished-at="2017-03-05T02:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
