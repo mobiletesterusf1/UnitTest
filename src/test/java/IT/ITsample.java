@@ -8,6 +8,9 @@ public class ITsample {
 	public void method(){
 		
 		System.out.println("_____________Integration Test______________");
+		
+		
+		
 	}
 
 }

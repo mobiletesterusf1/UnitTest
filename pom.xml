@@ -16,6 +16,13 @@
 	    <version>6.11</version>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.webdriver/webdriver-firefox -->
+
+
+		
   </dependencies>
   <build>
     <finalName>sampleWebApp</finalName>
@@ -43,6 +50,28 @@
     			</suiteXmlFiles>		
 		    </configuration>
    		</plugin>
+   		
+   		<plugin>
+   			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-failsafe-plugin</artifactId>
+		    <version>2.19.1</version>   		
+  				<executions>
+  					<execution>
+		            <goals>
+		              <goal>integration-test</goal>
+		              <goal>verify</goal>
+		            </goals>      
+         		</execution>
+  				</executions>
+  				<configuration>
+  					<suiteXmlFiles>
+  							<suiteXmlFile>testng1.xml</suiteXmlFile>
+  					</suiteXmlFiles>
+  				</configuration>
+   		</plugin>
+   		
+   		
     	</plugins>
   </build>
 </project>
