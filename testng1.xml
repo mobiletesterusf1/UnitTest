@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Jenkins_Suite_IT" >
+   
+  <test name="Regression_IT">
+    <classes>
+      <class name="IT.ITsample"/>
+    </classes>
+  </test>
+</suite>
